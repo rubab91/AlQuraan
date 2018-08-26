@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66adff"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    tools:context="com.abm.rubi.rubiproject.AlifActivity">
+
+    <TextView
+        android:id="@+id/tv_haa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="171dp"
+        android:layout_marginTop="56dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="ح"
+        android:textSize="90sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="380dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="105dp"
+        android:text="Hha as we mentioned earlier is one of the letters that do not have a counterpart in English. But you might have heard it before because it is a part of the most famous Arabic name “Muhammad”, the name of the prophet of the Islamic religion.     Non-Arabic speakers usually pronounce it with a sound similar to the English letter H, which is represented by a different Arabic letter called Heh ( هـ ). And that actually sounds kind of funny to Arabic Natives!"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_thuwa" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="#ffffff"
+    android:id="@+id/mainContainer"
+    tools:context="com.abm.rubi.rubiproject.HomeScreen">
+
+    <ImageView
+        android:id="@+id/iv_bismillah"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/bismillah_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/index_container"
+        android:orientation="vertical"
+        android:layout_marginTop="250dp"
+        >
+
+            <!--ARABIC ALPHBITS-->
+        <FrameLayout
+            android:id="@+id/alphabit_container"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#3399ff"
+            android:paddingTop="30dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Arabic Alphabets"
+                    android:textColor="#ffffff"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:visibility="gone"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginEnd="200dp"
+                    android:id="@+id/iv_arrowRight"
+                    android:src="@drawable/generic_body_buttonicon_arrowgrey_right_xhdpi"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <!--ARABIC JOINING LETTERS-->
+        <FrameLayout
+            android:id="@+id/surahs_container"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#3399ff"
+            android:paddingTop="30dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_marginTop="2dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Practice Quranic Surahs"
+                    android:textColor="#ffffff"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:visibility="gone"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginEnd="200dp"
+                    android:id="@+id/iv_arrowRight_"
+                    android:src="@drawable/generic_body_buttonicon_arrowgrey_right_xhdpi"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+            </LinearLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:id="@+id/iv_item_tow"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_marginEnd="20dp"-->
+        <!--android:layout_marginStart="20dp"-->
+        <!---->
+        <!--/>-->
+
+</android.support.constraint.ConstraintLayout>

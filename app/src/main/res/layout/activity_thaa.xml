@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66adff"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:paddingBottom="10dp"
+    tools:context="com.abm.rubi.rubiproject.AlifActivity">
+
+    <TextView
+        android:id="@+id/tv_thaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="ث"
+        android:clickable="true"
+        android:focusable="true"
+        android:textSize="90sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"
+        android:text="The third letter of the Arabic alphabet. Its name is تَاء‎ (tāʾ) and it has the sound of English t. It is preceded by ب‎ (b) and followed by ث‎ (ṯ). Ta is the counterpart of the English letter T that is pronounced by having the tip of the tongue pressed against the top of the mouth right behind the front tooth then slightly pushing air to separate the tongue and upper mouth. Every time this letter is spoken, the tip of the tongue should touch the upper part of the mouth."
+        android:textAlignment="viewStart"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_thaa"
+        app:layout_constraintVertical_bias="0.251" />
+
+</android.support.constraint.ConstraintLayout>

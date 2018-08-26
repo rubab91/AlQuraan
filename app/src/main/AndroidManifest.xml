@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abm.rubi.rubiproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeScreen" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".AlphabitScreen" />
+        <activity android:name=".AlifActivity" />
+        <activity android:name=".BaaActivity" />
+        <activity android:name=".TaaActivity" />
+        <activity android:name=".ThaaActivity" />
+        <activity android:name=".JiimActivity" />
+        <activity android:name=".HaaActivity" />
+        <activity android:name=".KhaaActivity" />
+        <activity android:name=".DaalActivity" />
+        <activity android:name=".ZaalActivity" />
+        <activity android:name=".RaaActivity" />
+        <activity android:name=".ZaaActivity" />
+        <activity android:name=".SeenActivity" />
+        <activity android:name=".SheenActivity" />
+        <activity android:name=".SaatActivity" />
+        <activity android:name=".ZwaatActivity" />
+        <activity android:name=".ThuwaActivity" />
+        <activity android:name=".ZuwaActivity" />
+        <activity android:name=".AinActivity" />
+        <activity android:name=".GhynActivity" />
+        <activity android:name=".FaaActivity" />
+        <activity android:name=".QaafActivity" />
+        <activity android:name=".KaafActivity" />
+        <activity android:name=".LaamActivity" />
+        <activity android:name=".MeemActivity" />
+        <activity android:name=".NoonActivty" />
+        <activity android:name=".WowActivity" />
+        <activity android:name=".SmallHaaActivity" />
+        <activity android:name=".AmzaActivity" />
+        <activity android:name=".YeeActivity" />
+        <activity android:name=".InstructionActivity" />
+        <activity android:name=".AlfatehActivity" />
+        <activity android:name=".SurrahNaasActivity" />
+        <activity android:name=".SurahIkhlas" />
+        <activity android:name=".SurahFalaq"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/haroofs_bg"
+    android:paddingTop="238dp"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    tools:context="com.abm.rubi.rubiproject.AlphabitScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:orientation="vertical"
+        android:paddingTop="5dp"
+        android:paddingStart="19dp"
+        android:paddingEnd="19dp"
+       >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right"
+            >
+            <View
+                android:id="@+id/jeem"
+                android:layout_width="65dp"
+                android:layout_height="44dp"
+                android:alpha="0.3"
+                android:padding="5dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#4152f4"
+                />
+            <View
+                android:id="@+id/saa"
+                android:layout_width="65dp"
+                android:layout_height="44dp"
+                android:alpha="0.3"
+                android:padding="5dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#4152f4"
+                />
+
+        <View
+            android:id="@+id/thay"
+            android:layout_width="65dp"
+            android:layout_height="44dp"
+            android:alpha="0.3"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:background="#4152f4"
+            />
+        <View
+            android:id="@+id/bay"
+            android:layout_width="65dp"
+            android:layout_height="44dp"
+            android:padding="5dp"
+            android:alpha="0.3"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:background="#4152f4"
+            />
+        <View
+            android:id="@+id/alif"
+            android:layout_width="65dp"
+            android:layout_height="44dp"
+            android:alpha="0.3"
+            android:padding="5dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:background="#4152f4"
+            />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/ray"
+                android:layout_width="65dp"
+                android:layout_height="44dp"
+                android:alpha="0.3"
+                android:padding="5dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#4152f4"
+                />
+
+            <View
+                android:id="@+id/zaal"
+                android:layout_width="65dp"
+                android:layout_height="44dp"
+                android:alpha="0.3"
+                android:padding="5dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#4152f4"
+                />
+
+            <View
+                android:id="@+id/daal"
+                android:layout_width="65dp"
+                android:layout_height="44dp"
+                android:alpha="0.3"
+                android:padding="5dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#4152f4"
+                />
+
+            <View
+                android:id="@+id/kha"
+                android:layout_width="65dp"
+                android:layout_height="44dp"
+                android:alpha="0.3"
+                android:padding="5dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#4152f4"
+                />
+            <View
+                android:id="@+id/hay"
+                android:layout_width="65dp"
+                android:layout_height="44dp"
+                android:alpha="0.3"
+                android:padding="5dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#4152f4"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/zuwaa"
+                android:layout_width="65dp"
+                android:layout_height="44dp"
+                android:alpha="0.3"
+                android:padding="5dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#4152f4"
+                />
+
+            <View
+                android:id="@+id/saat"
+                android:layout_width="65dp"
+                android:layout_height="44dp"
+                android:alpha="0.3"
+                android:padding="5dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#4152f4"
+                />
+
+            <View
+                android:id="@+id/sheen"
+                android:layout_width="65dp"
+                android:layout_height="44dp"
+                android:alpha="0.3"
+                android:padding="5dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#4152f4"
+                />
+
+            <View
+                android:id="@+id/seen"
+                android:layout_width="65dp"
+                android:layout_height="44dp"
+                android:alpha="0.3"
+                android:padding="5dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#4152f4"
+                />
+            <View
+                android:id="@+id/zay"
+                android:layout_width="65dp"
+                android:layout_height="44dp"
+                android:alpha="0.3"
+                android:padding="5dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#4152f4"
+                />
+        </LinearLayout>
+
+        <!-- 4th Col -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/fay"
+                android:layout_width="65dp"
+                android:layout_height="44dp"
+                android:alpha="0.3"
+                android:padding="5dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#4152f4"
+                />
+
+            <View
+                android:id="@+id/ghayn"
+                android:layout_width="65dp"
+                android:layout_height="44dp"
+                android:alpha="0.3"
+                android:padding="5dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#4152f4"
+                />
+
+            <View
+                android:id="@+id/aen"
+                android:layout_width="65dp"
+                android:layout_height="44dp"
+                android:alpha="0.3"
+                android:padding="5dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#4152f4"
+                />
+
+            <View
+                android:id="@+id/zaa"
+                android:layout_width="65dp"
+                android:layout_height="44dp"
+                android:alpha="0.3"
+                android:padding="5dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#4152f4"
+                />
+            <View
+                android:id="@+id/thuwa"
+                android:layout_width="65dp"
+                android:layout_height="44dp"
+                android:alpha="0.3"
+                android:padding="5dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#4152f4"
+                />
+
+        </LinearLayout>
+
+        <!-- 5th Col -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/noon"
+                android:layout_width="65dp"
+                android:layout_height="44dp"
+                android:alpha="0.3"
+                android:padding="5dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#4152f4"
+                />
+
+            <View
+                android:id="@+id/meem"
+                android:layout_width="65dp"
+                android:layout_height="44dp"
+                android:alpha="0.3"
+                android:padding="5dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#4152f4"
+                />
+
+            <View
+                android:id="@+id/laam"
+                android:layout_width="65dp"
+                android:layout_height="44dp"
+                android:alpha="0.3"
+                android:padding="5dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#4152f4"
+                />
+
+            <View
+                android:id="@+id/kaaf"
+                android:layout_width="65dp"
+                android:layout_height="44dp"
+                android:alpha="0.3"
+                android:padding="5dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#4152f4"
+                />
+            <View
+                android:id="@+id/qaaf"
+                android:layout_width="65dp"
+                android:layout_height="44dp"
+                android:alpha="0.3"
+                android:padding="5dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#4152f4"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/yee"
+                android:layout_width="65dp"
+                android:layout_height="44dp"
+                android:alpha="0.3"
+                android:padding="5dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#4152f4"
+                />
+
+            <View
+                android:id="@+id/amzaa"
+                android:layout_width="65dp"
+                android:layout_height="44dp"
+                android:alpha="0.3"
+                android:padding="5dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#4152f4"
+                />
+
+            <View
+                android:id="@+id/haa"
+                android:layout_width="65dp"
+                android:layout_height="44dp"
+                android:alpha="0.3"
+                android:padding="5dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#4152f4"
+                />
+
+            <View
+                android:id="@+id/woow"
+                android:layout_width="65dp"
+                android:layout_height="44dp"
+                android:alpha="0.3"
+                android:padding="5dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#4152f4"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_alif_play"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:visibility="gone"
+        android:text="Alif"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="451dp"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>
